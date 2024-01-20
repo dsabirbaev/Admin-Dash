@@ -1,5 +1,5 @@
 import Breadcrumb from '../components/Breadcrumb';
-import userThree from '../images/user/user-03.png';
+import userThree from '../images/user/user-14.png';
 import fireToast from '../hooks/fireToast';
 import { Table } from "../components/TableSettings";
 import { Modal } from "../components/ModalSettings";
@@ -90,8 +90,8 @@ const Settings = () => {
                           type="text"
                           name="fullName"
                           id="fullName"
-                          placeholder="Devid Jhon"
-                          defaultValue="Devid Jhon"
+                          placeholder="Sabirbayev Davranbek"
+                          defaultValue="Sabirbayev Davranbek"
                         />
                       </div>
                     </div>
@@ -108,8 +108,8 @@ const Settings = () => {
                         type="text"
                         name="phoneNumber"
                         id="phoneNumber"
-                        placeholder="+990 3343 7865"
-                        defaultValue="+990 3343 7865"
+                        placeholder="+998 93 361 94 47"
+                        defaultValue="+998 93 361 94 47"
                       />
                     </div>
                   </div>
@@ -152,8 +152,8 @@ const Settings = () => {
                         type="email"
                         name="emailAddress"
                         id="emailAddress"
-                        placeholder="devidjond45@gmail.com"
-                        defaultValue="devidjond45@gmail.com"
+                        placeholder="davran9559@gmail.com"
+                        defaultValue="devran9559@gmail.com"
                       />
                     </div>
                   </div>
@@ -170,8 +170,8 @@ const Settings = () => {
                       type="text"
                       name="Username"
                       id="Username"
-                      placeholder="devidjhon24"
-                      defaultValue="devidjhon24"
+                      placeholder="developer"
+                      defaultValue="developer"
                     />
                   </div>
 
@@ -254,8 +254,8 @@ const Settings = () => {
               <div className="p-7">
                 <form action="#">
                   <div className="mb-4 flex items-center gap-3">
-                    <div className="h-14 w-14 rounded-full">
-                      <img src={userThree} alt="User" />
+                    <div className="h-14 w-14 rounded-full overflow-hidden">
+                      <img src={userThree} alt="User"/>
                     </div>
                     <div>
                       <span className="mb-1.5 text-black dark:text-white">
