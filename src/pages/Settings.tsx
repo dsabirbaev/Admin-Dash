@@ -153,7 +153,7 @@ const Settings = () => {
                         name="emailAddress"
                         id="emailAddress"
                         placeholder="davran9559@gmail.com"
-                        defaultValue="devran9559@gmail.com"
+                        defaultValue="davran9559@gmail.com"
                       />
                     </div>
                   </div>
