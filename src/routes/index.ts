@@ -1,16 +1,28 @@
 import { lazy } from 'react';
 
+
+import ECommerce from '../pages/Dashboard/ECommerce';
+
 const Calendar = lazy(() => import('../pages/Calendar'));
 const Chart = lazy(() => import('../pages/Chart'));
 const FormElements = lazy(() => import('../pages/Form/FormElements'));
 const FormLayout = lazy(() => import('../pages/Form/FormLayout'));
 const Profile = lazy(() => import('../pages/Profile'));
+const Users = lazy(() => import('../pages/Users'));
+
+
+
 const Settings = lazy(() => import('../pages/Settings'));
 const Tables = lazy(() => import('../pages/Tables'));
 const Alerts = lazy(() => import('../pages/UiElements/Alerts'));
 const Buttons = lazy(() => import('../pages/UiElements/Buttons'));
 
 const coreRoutes = [
+  {
+    path: '/ecommerce',
+    title: 'Ecommerce',
+    component: ECommerce,
+  },
   {
     path: '/calendar',
     title: 'Calender',
@@ -20,6 +32,11 @@ const coreRoutes = [
     path: '/profile',
     title: 'Profile',
     component: Profile,
+  },
+  {
+    path: '/users',
+    title: 'Users',
+    component: Users,
   },
   {
     path: '/forms/form-elements',
